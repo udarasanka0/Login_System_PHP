@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+}
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+/* log in form page */
+
+fieldset {
+	margin:20px;
+	padding:0 10px 10px;
+	border:1px solid #666;
+	border-radius:10px;
+	box-shadow:0 0 10px #666;
+	padding-top:10px;
+}  
+legend {
+ margin: 0px 5px;
+ padding: 5px;
+ white-space: nowrap;
+ background: transparent ; 
+ font-weight: bold;
+ font-size: 2em;
+}
+
+.login {
+	width: 400px;
+	margin: 100px auto;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+p.error {
+	background: red;
+	color: white;
+	padding: 10px;
+}
+p.info {
+	background:teal;
+	color: black;
+	padding: 10px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+button {
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+p.info {
+	background: red;
+	color: white;
+	padding: 10px;
+}
+
+/* User list and addn new user page */
+
+header{
+	background: #eee;
+	overflow: auto;
+	padding: 10px;
+}
+header .appname{
+	float: left;
+}
+header .loggedin{
+	float: right;
+}
+
+main#userlist{
+	width: 1000px;
+	margin: 30px auto;
+}
+main#userlist h1{
+	margin-bottom: 20px;
+}
+table.masterlist{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.masterlist th{
+	background-color: teal;
+	text-align: left;
+}
+table.masterlist th, table.masterlist td{
+	padding: 15px;
+	border-bottom: 1px solid black;
+}
+
+/* Add new user page */
+
+  /* Add a background */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  } 
+
+/* Style inputs with type */
+input[type=text],input[type=tele], input[type=email] {
+	width: 100%; 
+	padding: 12px;  
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical 
+  }
+  input[type=password]{
+	width: 100%; 
+	padding: 12px;  
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical 
+  }
+button.loginb{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+#rbtn{
+	color: white;
+}
+ 
+  /* Style the submit button */
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+input[type=reset] {
+	background-color: rgba(139, 139, 139, 0.883);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
